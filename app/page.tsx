@@ -5,6 +5,7 @@ import Activation from "./Components/Activation/page";
 import Charge from "./Components/Charge/page";
 import PowerCharge from "./Components/PowerCharge/page";
 import Vaping from "./Components/Vaping/page";
+import EasyUse from "./Components/EasyUse/page";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Charge />
       <PowerCharge />
       <Vaping />
+      <EasyUse />
     </div>
   );
 }
