@@ -7,6 +7,7 @@ import PowerCharge from "./Components/PowerCharge/page";
 import Vaping from "./Components/Vaping/page";
 import EasyUse from "./Components/EasyUse/page";
 import Auto from "./Components/Auto/page";
+import Remember from "./Components/Remember/page";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Vaping />
       <EasyUse />
       <Auto />
+      <Remember />
     </div>
   );
 }
