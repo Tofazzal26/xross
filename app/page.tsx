@@ -8,6 +8,7 @@ import Vaping from "./Components/Vaping/page";
 import EasyUse from "./Components/EasyUse/page";
 import Auto from "./Components/Auto/page";
 import Remember from "./Components/Remember/page";
+import Makes from "./Components/Makes/page";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <EasyUse />
       <Auto />
       <Remember />
+      <Makes />
     </div>
   );
 }
