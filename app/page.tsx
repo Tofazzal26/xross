@@ -9,6 +9,7 @@ import EasyUse from "./Components/EasyUse/page";
 import Auto from "./Components/Auto/page";
 import Remember from "./Components/Remember/page";
 import Makes from "./Components/Makes/page";
+import Pods from "./Components/Pods/page";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Auto />
       <Remember />
       <Makes />
+      <Pods />
     </div>
   );
 }
