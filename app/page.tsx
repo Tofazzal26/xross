@@ -10,6 +10,7 @@ import Auto from "./Components/Auto/page";
 import Remember from "./Components/Remember/page";
 import Makes from "./Components/Makes/page";
 import Pods from "./Components/Pods/page";
+import CheckSpec from "./Components/CheckSpec/page";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <Remember />
       <Makes />
       <Pods />
+      <CheckSpec />
     </div>
   );
 }
